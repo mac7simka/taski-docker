@@ -12,7 +12,6 @@ ALLOWED_HOSTS = ['158.160.93.205', 'dommenname.ddns.net', '*']
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'collected_static'
 
-# Application definition
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
